@@ -54,7 +54,7 @@ public class ColorPickerDialog
 
     private OnColorChangedListener mListener;
     private int mOrientation;
-    private View mLayout;
+    protected View mLayout;
 
     @Override
     public void onGlobalLayout() {
